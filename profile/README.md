@@ -47,6 +47,20 @@ merely *.NET*. When the two disagree, one of them is wrong — and it shows.
 - **Every use case is one folder**: input port, command or query, result, implementation.
 - **Progressive complexity.** Start with four layers; add structure when a directory earns it.
 
+## How this was built
+
+Written with AI assistance — drafted mainly by Claude, parts reviewed by OpenAI Codex, in an iterative
+dialogue with the author since 2025, who set the direction, made the architectural decisions, reviewed
+the design and spot-checked the code. The rule catalog is what carries the verification: 110 rules run
+in both reference implementations' builds, and either sample is tested against the other's end-to-end
+suite.
+
+The long version: [AI-DISCLOSURE.md](https://github.com/domain-centric-development/.github/blob/main/AI-DISCLOSURE.md)
+
+## Licence
+
+Everything here is MIT-licensed.
+
 ## Website
 
 [**domaincentric.dev**](https://domaincentric.dev)
