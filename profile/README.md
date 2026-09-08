@@ -17,6 +17,8 @@ convention slips.
 | …the same shop in .NET | [**dca-ecommerce-sample-dotnet**](https://github.com/domain-centric-development/dca-ecommerce-sample-dotnet) |
 | enforce the rules in my own Java build | [**dca-java**](https://github.com/domain-centric-development/dca-java) |
 | …in my own .NET build | [**dca-dotnet**](https://github.com/domain-centric-development/dca-dotnet) |
+| have my coding agent follow the style | [**dca-marketplace**](https://github.com/domain-centric-development/dca-marketplace) |
+| give an agent the doctrine as a knowledge graph | [**dca-knowledge-catalog**](https://github.com/domain-centric-development/dca-knowledge-catalog) |
 
 ## The repositories
 
@@ -27,6 +29,8 @@ convention slips.
 | [dca-dotnet](https://github.com/domain-centric-development/dca-dotnet) | The .NET twin: `DomainCentric.BuildingBlocks` and `DomainCentric.ArchRules(.Xunit)` on ArchUnitNET — **the same rule ids**, so a finding means the same thing in both languages. |
 | [dca-ecommerce-sample-java](https://github.com/domain-centric-development/dca-ecommerce-sample-java) | The reference implementation: a Spring Boot shop with eight bounded contexts, full tactical DDD, ports and adapters, and the rule catalog running in its build. |
 | [dca-ecommerce-sample-dotnet](https://github.com/domain-centric-development/dca-ecommerce-sample-dotnet) | The same shop on ASP.NET Core, one project per bounded context. |
+| [dca-marketplace](https://github.com/domain-centric-development/dca-marketplace) | A Claude Code plugin marketplace: `dca-core` (bootstrap onto the published packages, scaffolding, DDD and hexagonal review agents, the knowledge catalog as a skill) and `software-craftsmanship` (TDD, clean code, ADRs) — Java/Spring and .NET/C#. |
+| [dca-knowledge-catalog](https://github.com/domain-centric-development/dca-knowledge-catalog) | The doctrine as a typed, cross-linked knowledge graph in the Open Knowledge Format: the full guide text anchored to the marker contracts and every rule, plus recipes, decision guides, pitfalls and templates. Generated from the guide and the two libraries; mirror it into any project for an agent to read. |
 
 ## Two implementations, one architecture
 
