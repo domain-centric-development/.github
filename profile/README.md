@@ -4,7 +4,7 @@ Business logic in the middle, infrastructure at the edges. DCA synthesises **Dom
 **Hexagonal Architecture** and **Clean Architecture** into four layers whose dependencies all point
 inward — domain, application, adapter, infrastructure — with bounded contexts as the unit of scaling.
 
-What makes it a *style* rather than an opinion: the rules are executable. A catalog of **110 rules in
+What makes it a *style* rather than an opinion: the rules are executable. A catalog of **114 rules in
 10 sets** (ids `DCA-<SET>-<NNN>`) runs in your build and fails it when a layer, a port or a naming
 convention slips.
 
@@ -36,7 +36,7 @@ convention slips.
 
 The two samples are not two projects that happen to look alike. They serve the **same markup, the same
 routes and the same seed data**, and either Playwright suite runs against either shop — so a checkout
-that diverges breaks four end-to-end runs, not one. The rule catalog is shared: 110 rules on both
+that diverges breaks four end-to-end runs, not one. The rule catalog is shared: 114 rules on both
 sides, four of which cannot apply to .NET, plus six that only exist there (`DCA-NET-*`).
 
 That is the point of the pair: it separates what is *architecture* from what is merely *Java* or
@@ -55,7 +55,7 @@ merely *.NET*. When the two disagree, one of them is wrong — and it shows.
 
 Written with AI assistance — drafted mainly by Claude, parts reviewed by OpenAI Codex, in an iterative
 dialogue with the author since 2025, who set the direction, made the architectural decisions, reviewed
-the design and spot-checked the code. The rule catalog is what carries the verification: 110 rules run
+the design and spot-checked the code. The rule catalog is what carries the verification: 114 rules run
 in both reference implementations' builds, and either sample is tested against the other's end-to-end
 suite.
 
