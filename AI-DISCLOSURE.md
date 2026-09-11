@@ -3,9 +3,9 @@
 This project was written with AI assistance, and the disclosure belongs in the open.
 
 The code, the guide and the rule catalog were drafted mainly by **Claude**, with parts reviewed by
-**OpenAI Codex**, in an iterative dialogue with the author that has been running **since 2025**. The
-author set the direction, made the architectural decisions, reviewed the design and spot-checked the
-code. None of it is a one-shot generation.
+**OpenAI Codex**, in an iterative dialogue with the author — **Christoph Bloemer**
+([@chbloemer](https://github.com/chbloemer)) — that has been running **since 2025**. The author
+set the direction, made the architectural decisions, reviewed the design and spot-checked the code. None of it is a one-shot generation.
 
 **How the reviewing changed.** In the beginning every change was read line by line. As the rule
 catalog grew, that reading moved into the build: what used to be a manual check became a failing

@@ -1,5 +1,7 @@
 # Domain-Centric Architecture
 
+By **Christoph Bloemer** — [@chbloemer](https://github.com/chbloemer)
+
 Business logic in the middle, infrastructure at the edges. DCA synthesises **Domain-Driven Design**,
 **Hexagonal Architecture** and **Clean Architecture** into four layers whose dependencies all point
 inward — domain, application, adapter, infrastructure — with bounded contexts as the unit of scaling.
@@ -60,6 +62,10 @@ in both reference implementations' builds, and either sample is tested against t
 suite.
 
 The long version: [AI-DISCLOSURE.md](https://github.com/domain-centric-development/.github/blob/main/AI-DISCLOSURE.md)
+
+## Author
+
+**Christoph Bloemer** — [@chbloemer](https://github.com/chbloemer)
 
 ## Licence
 
