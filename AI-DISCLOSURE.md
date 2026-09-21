@@ -15,9 +15,11 @@ collaboration scales.
 
 **What is checked mechanically.** The architecture rule catalog runs in the build of both
 reference implementations (ArchUnit on the Java side, ArchUnitNET on the .NET side), alongside unit,
-integration and end-to-end tests. The two implementations serve the same routes and are tested
-against each other's end-to-end suites, so a divergence between them fails a build. Architectural
-decisions are recorded as ADRs, including the ones that were later superseded.
+integration and end-to-end tests. The two implementations serve the same routes and carry two
+mirrored end-user suites over one shared, written scenario contract: each build checks its own shop
+against every scenario, and fails when a scenario has no test or a test no scenario. Comparing the
+two runs against each other is not automated yet. Architectural decisions are recorded as ADRs,
+including the ones that were later superseded.
 
 **What that does not mean.** A green build is not proof of correctness, and a rule catalog does not
 replace judgement. It narrows the space in which a mistake can hide — a smaller claim, and the one

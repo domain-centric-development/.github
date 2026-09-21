@@ -38,8 +38,9 @@ selects and checks, is generated from the code in `dca-java/RULES.md` and `dca-d
 ## Two implementations, one architecture
 
 The two samples are not two projects that happen to look alike. They serve the **same markup, the same
-routes and the same seed data**, and either Playwright suite runs against either shop — so a checkout
-that diverges breaks four end-to-end runs, not one. The rule catalog is shared: one id means the same
+routes and the same seed data**, and both end-user suites are written against one shared scenario
+contract, so a checkout that diverges shows up as the same named scenario failing on one side and
+passing on the other. The rule catalog is shared: one id means the same
 thing on both sides, a handful cannot apply to .NET and are listed with the reason, and a small
 `DCA-NET-*` set exists only there.
 
@@ -60,8 +61,8 @@ merely *.NET*. When the two disagree, one of them is wrong — and it shows.
 Written with AI assistance — drafted mainly by Claude, parts reviewed by OpenAI Codex, in an iterative
 dialogue with the author since 2025, who set the direction, made the architectural decisions, reviewed
 the design and spot-checked the code. The rule catalog is what carries the verification: it runs in
-both reference implementations' builds, and either sample is tested against the other's end-to-end
-suite.
+both reference implementations' builds, and both samples answer to the same written end-user
+scenarios.
 
 The long version: [AI-DISCLOSURE.md](https://github.com/domain-centric-development/.github/blob/main/AI-DISCLOSURE.md)
 
