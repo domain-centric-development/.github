@@ -21,9 +21,10 @@ the organisation profile (`profile/README.md`), the organisation-wide `CONTRIBUT
 
 ## Working here
 
-- `profile/README.md` is the organisation's landing page. Repository names, package coordinates and the rule count
-  it states must match the published state — check `dca-java/rules.json` (Java) and `dca-dotnet/rules.json` (.NET)
-  in the monorepo checkout before changing a number; today it says 114 Java rules in 10 sets.
+- `profile/README.md` is the organisation's landing page. Repository names and package coordinates must match the
+  published state. It deliberately states **no rule count and no set count**: both are generated
+  (`dca-java/rules.json`, `dca-dotnet/rules.json`) and this file is written by hand, so any number here goes stale
+  at the next release. Describe the catalog, link the generated `RULES.md`, do not count it.
 - `CONTRIBUTING.md` carries the licensing terms (inbound = outbound MIT, plus the copyright holder's right to
   relicense prose) and the principles above. Changes to the terms are the owner's decision, not an editorial fix.
 - `AI-DISCLOSURE.md` is the honest account of how the project is built; extend it when the way of working changes,
