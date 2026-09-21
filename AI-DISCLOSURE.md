@@ -13,7 +13,7 @@ test, which freed the author's attention for design — and for experiments that
 expensive to verify by hand. The catalog is therefore not decoration; it is the reason the
 collaboration scales.
 
-**What is checked mechanically.** 110 architecture rules in 10 sets run in the build of both
+**What is checked mechanically.** The architecture rule catalog runs in the build of both
 reference implementations (ArchUnit on the Java side, ArchUnitNET on the .NET side), alongside unit,
 integration and end-to-end tests. The two implementations serve the same routes and are tested
 against each other's end-to-end suites, so a divergence between them fails a build. Architectural
